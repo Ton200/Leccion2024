@@ -9,4 +9,8 @@ export class HomePage {
 
   constructor() {}
 
+  // Aquí agregamos el método
+  doSomething() {
+    console.log("Botón presionado");
+  }
 }

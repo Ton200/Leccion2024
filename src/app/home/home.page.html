@@ -1,7 +1,16 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      <!--  alinear el avatar y el botón -->
+      <div style="display: flex; align-items: center;">
+        <!--  el ion-button -->
+        <ion-button expand="none" (click)="doSomething()">Botón</ion-button>
+        
+        <!--  el ion-avatar -->
+        <ion-avatar style="margin-left: 10px;">
+          <img src="https://humanidades.com/wp-content/uploads/2018/07/el-principito-e1573523298124.jpg" alt="Avatar de usuario">
+        </ion-avatar>
+      </div>
     </ion-title>
   </ion-toolbar>
 </ion-header>
